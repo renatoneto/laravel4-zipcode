@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "nategood/httpful": "~0.2"
+        "guzzlehttp/guzzle": "~4.0"
     },
     "require-dev": {
         "mockery/mockery": "*",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Skape\\Cep": "src/"
+            "Skape\\Zipcode": "src/"
         }
     }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace Skape\Cep;
+namespace Skape\Zipcode;
 
 final class Response
 {

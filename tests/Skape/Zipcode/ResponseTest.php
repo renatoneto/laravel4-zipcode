@@ -1,12 +1,12 @@
 <?php
 
-use Skape\Cep\Response;
+use Skape\Zipcode\Response;
 
-class SkapeCepResponse extends PHPUnit_Framework_TestCase
+class ResponseTest extends PHPUnit_Framework_TestCase
 {
 
     /**
-     * @var \Skape\Cep\Response
+     * @var \Skape\Zipcode\Response
      */
     protected $cepResponse;
 
