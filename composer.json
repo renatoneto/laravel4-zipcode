@@ -1,0 +1,25 @@
+{
+    "name": "renatoneto/laravel4-cep",
+    "description": "Consulta de CEP",
+    "keywords": ["cep", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renato Neto",
+            "email": "skapemr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "nategood/httpful": "~0.2"
+    },
+    "require-dev": {
+        "mockery/mockery": "*",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Skape\\Cep": "src/"
+        }
+    }
+}
