@@ -11,7 +11,7 @@ class Finder
      */
     protected $adapter;
 
-    public function _construct(AdapterInterface $adapter)
+    public function __construct(AdapterInterface $adapter)
     {
         $this->setAdapter($adapter);
     }
